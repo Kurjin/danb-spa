@@ -1,43 +1,43 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact = ({ darkMode }) => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    company: '',
-    service: '',
-    message: ''
-  });
+  // const [formData, setFormData] = useState({
+  //   name: '',
+  //   email: '',
+  //   phone: '',
+  //   company: '',
+  //   service: '',
+  //   message: ''
+  // });
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: value
-    }));
-  };
+  // const handleInputChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData(prev => ({
+  //     ...prev,
+  //     [name]: value
+  //   }));
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      alert('Thank you for your message! We will get back to you soon.');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        company: '',
-        service: '',
-        message: ''
-      });
-    }, 2000);
-  };
+  //   // Simulate form submission
+  //   setTimeout(() => {
+  //     setIsSubmitting(false);
+  //     alert('Thank you for your message! We will get back to you soon.');
+  //     setFormData({
+  //       name: '',
+  //       email: '',
+  //       phone: '',
+  //       company: '',
+  //       service: '',
+  //       message: ''
+  //     });
+  //   }, 2000);
+  // };
 
   const contactInfo = [
     {
@@ -47,7 +47,7 @@ const Contact = ({ darkMode }) => {
         </svg>
       ),
       title: "Phone",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"],
+      details: ["0916-680-9096", "0917-160-2864"],
       action: "Call Now"
     },
     {
@@ -57,7 +57,7 @@ const Contact = ({ darkMode }) => {
         </svg>
       ),
       title: "Email",
-      details: ["info@danbfinancial.com", "support@danbfinancial.com"],
+      details: ["danbfinancial@gamil.com.com", "danbfinancialconsultancy@gmail.com"],
       action: "Send Email"
     },
     {
@@ -68,19 +68,19 @@ const Contact = ({ darkMode }) => {
         </svg>
       ),
       title: "Office",
-      details: ["123 Business Center Dr", "Suite 456, City, State 12345"],
+      details: ["LG-07 Cityland Shaw Tower, Shaw Blvd., Mandaluyong City, Mandaluyong, Philippines"],
       action: "Get Directions"
     }
   ];
 
-  const services = [
-    "Business Loans",
-    "Collateral Financing",
-    "Non-Collateral Loans",
-    "Financial Planning",
-    "Consultation Services",
-    "Investment Advisory"
-  ];
+  // const services = [
+  //   "Business Loans",
+  //   "Collateral Financing",
+  //   "Non-Collateral Loans",
+  //   "Financial Planning",
+  //   "Consultation Services",
+  //   "Investment Advisory"
+  // ];
 
   return (
     <section id="contact" className={`py-20 ${darkMode ? 'bg-gray-800' : 'bg-white'}`}>
@@ -101,7 +101,7 @@ const Contact = ({ darkMode }) => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Form */}
-          <div className={`p-8 rounded-2xl ${
+          {/* <div className={`p-8 rounded-2xl ${
             darkMode ? 'bg-gray-700/50' : 'bg-gray-50'
           }`}>
             <h3 className={`text-2xl font-bold mb-6 ${
@@ -254,7 +254,7 @@ const Contact = ({ darkMode }) => {
                 {isSubmitting ? 'Sending...' : 'Send Message'}
               </button>
             </form>
-          </div>
+          </div> */}
 
           {/* Contact Information */}
           <div className="space-y-8">
@@ -316,11 +316,11 @@ const Contact = ({ darkMode }) => {
               <div className="space-y-2">
                 <div className="flex justify-between">
                   <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>Monday - Friday</span>
-                  <span className={darkMode ? 'text-white' : 'text-gray-900'}>9:00 AM - 6:00 PM</span>
+                  <span className={darkMode ? 'text-white' : 'text-gray-900'}>9:00 AM - 8:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>Saturday</span>
-                  <span className={darkMode ? 'text-white' : 'text-gray-900'}>10:00 AM - 4:00 PM</span>
+                  <span className={darkMode ? 'text-white' : 'text-gray-900'}>Closed</span>
                 </div>
                 <div className="flex justify-between">
                   <span className={darkMode ? 'text-gray-300' : 'text-gray-600'}>Sunday</span>
@@ -330,7 +330,7 @@ const Contact = ({ darkMode }) => {
             </div>
 
             {/* Emergency Contact */}
-            <div className={`p-6 rounded-xl ${
+            {/* <div className={`p-6 rounded-xl ${
               darkMode ? 'bg-red-600/20' : 'bg-red-50'
             } border ${darkMode ? 'border-red-600/30' : 'border-red-200'}`}>
               <h4 className={`text-lg font-semibold mb-2 ${
@@ -348,7 +348,7 @@ const Contact = ({ darkMode }) => {
               }`}>
                 +1 (555) 911-0000
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

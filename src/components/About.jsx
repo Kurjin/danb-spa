@@ -2,10 +2,10 @@ import React from 'react';
 
 const About = ({ darkMode }) => {
   const stats = [
-    { number: "500+", label: "Happy Clients", icon: "👥" },
-    { number: "98%", label: "Success Rate", icon: "📈" },
-    { number: "24h", label: "Approval Time", icon: "⚡" },
-    { number: "10+", label: "Years Experience", icon: "🏆" }
+    { number: "7k+", label: "Happy Clients", icon: "👥" },
+    { number: "90%", label: "Success Rate", icon: "📈" },
+    { number: "7-14 days", label: "Approval Time", icon: "⚡" },
+    { number: "17", label: "Years Experience", icon: "🏆" }
   ];
 
   const values = [

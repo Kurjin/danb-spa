@@ -2,70 +2,70 @@ import React from 'react';
 
 const Achievements = ({ darkMode }) => {
   const achievements = [
-    {
-      year: "2024",
-      title: "Best Financial Consultancy",
-      organization: "Business Excellence Awards",
-      description: "Recognized for outstanding service quality and client satisfaction in financial consultancy services.",
-      icon: "🏆"
-    },
-    {
-      year: "2024",
-      title: "Fastest Growing Company",
-      organization: "Financial Services Association",
-      description: "Awarded for exceptional growth and expansion in the financial services sector.",
-      icon: "📈"
-    },
-    {
-      year: "2023",
-      title: "Excellence in Customer Service",
-      organization: "Customer Choice Awards",
-      description: "Honored for providing exceptional customer service and support to business clients.",
-      icon: "⭐"
-    },
-    {
-      year: "2023",
-      title: "Innovation in Financial Technology",
-      organization: "FinTech Innovation Summit",
-      description: "Recognized for innovative approaches to business financing and digital solutions.",
-      icon: "💡"
-    },
-    {
-      year: "2023",
-      title: "Top 10 Financial Advisors",
-      organization: "Financial Advisor Magazine",
-      description: "Featured among the top 10 financial advisory firms for business growth and development.",
-      icon: "🎯"
-    },
-    {
-      year: "2022",
-      title: "Community Impact Award",
-      organization: "Local Business Association",
-      description: "Acknowledged for significant contributions to local business development and community growth.",
-      icon: "🤝"
-    }
+    // {
+    //   year: "2024",
+    //   title: "Best Financial Consultancy",
+    //   organization: "Business Excellence Awards",
+    //   description: "Recognized for outstanding service quality and client satisfaction in financial consultancy services.",
+    //   icon: "🏆"
+    // },
+    // {
+    //   year: "2024",
+    //   title: "Fastest Growing Company",
+    //   organization: "Financial Services Association",
+    //   description: "Awarded for exceptional growth and expansion in the financial services sector.",
+    //   icon: "📈"
+    // },
+    // {
+    //   year: "2023",
+    //   title: "Excellence in Customer Service",
+    //   organization: "Customer Choice Awards",
+    //   description: "Honored for providing exceptional customer service and support to business clients.",
+    //   icon: "⭐"
+    // },
+    // {
+    //   year: "2023",
+    //   title: "Innovation in Financial Technology",
+    //   organization: "FinTech Innovation Summit",
+    //   description: "Recognized for innovative approaches to business financing and digital solutions.",
+    //   icon: "💡"
+    // },
+    // {
+    //   year: "2023",
+    //   title: "Top 10 Financial Advisors",
+    //   organization: "Financial Advisor Magazine",
+    //   description: "Featured among the top 10 financial advisory firms for business growth and development.",
+    //   icon: "🎯"
+    // },
+    // {
+    //   year: "2022",
+    //   title: "Community Impact Award",
+    //   organization: "Local Business Association",
+    //   description: "Acknowledged for significant contributions to local business development and community growth.",
+    //   icon: "🤝"
+    // }
   ];
 
   const milestones = [
     {
-      number: "500+",
+      number: "7k+",
       label: "Businesses Funded",
       description: "Successfully provided financing to over 500 businesses across various industries."
     },
     {
-      number: "$50M+",
+      number: "₱10.7B",
       label: "Total Funding Provided",
-      description: "Facilitated over $50 million in business loans and financial solutions."
+      description: "Facilitated over ₱10.7 billion in business loans and financial solutions."
     },
     {
-      number: "98%",
+      number: "90%",
       label: "Client Satisfaction",
-      description: "Maintained an exceptional 98% client satisfaction rate across all services."
+      description: "Maintained an exceptional 90% client satisfaction rate across all services."
     },
     {
-      number: "24h",
+      number: "7 Days",
       label: "Average Approval Time",
-      description: "Achieved industry-leading 24-hour average approval time for qualified applications."
+      description: "Achieved industry-leading 7-days average approval time and for qualified applications/clients will take only for 3-days."
     }
   ];
 

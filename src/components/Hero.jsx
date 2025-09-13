@@ -40,13 +40,13 @@ const Hero = ({ darkMode }) => {
   const wallpaperScroll = [
     {
       title: "",
-      url: "../../public/skycscraper.jpg",
+      url: "./skycscraper.jpg",
       quote: "D.A.N.B Financial Consultancy Services",
       subQuote: "Your Trusted Partner in  Financial Growth & Success. We are here to help.",
     },
     {
       title: "",
-      url: "../../public/officedesk.jpg",
+      url: "./officedesk.jpg",
       quote:
         "We specialize in business loans, collateral and non-collateral financing, with fast approval processes.",
       subQuote:
@@ -156,7 +156,7 @@ const Hero = ({ darkMode }) => {
       <div className="relative z-10 max-w-7xl mx-auto text-center">
         <div className="max-w-7xl mt-8 mx-auto">
           <div>
-            <img src="../../public/danbprmotional.jpg" alt="" />
+            <img src="./danbprmotional.jpg" alt="danb promotional info" />
           </div>
           {/* Key Features */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 mt-6 max-w-4xl mx-auto">

@@ -32,7 +32,7 @@ const Hero = ({ darkMode }) => {
     },
     {
       name: "Approval Time",
-      value: "7days",
+      value: "7-14 days",
       color: { light: "text-purple-400", dark: "text-white" },
     },
   ];

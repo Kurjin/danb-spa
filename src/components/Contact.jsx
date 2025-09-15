@@ -57,7 +57,7 @@ const Contact = ({ darkMode }) => {
         </svg>
       ),
       title: "Email",
-      details: ["danbfinancial@gamil.com.com", "danbfinancialconsultancy@gmail.com"],
+      details: [ "danbfinancialconsultancy@gmail.com"],
       action: "Send Email"
     },
     {

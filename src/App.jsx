@@ -43,7 +43,6 @@ const App = () => {
       <Hero darkMode={darkMode} />
       <Services darkMode={darkMode} />
       <About darkMode={darkMode} />
-      <Achievements darkMode={darkMode} />
       <Contact darkMode={darkMode} />
       <Footer darkMode={darkMode} />
     </div>
